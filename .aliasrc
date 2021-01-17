@@ -1,1 +1,2 @@
 alias ls='exa --grid --color=always --icons'
+alias cd..='cd ..'

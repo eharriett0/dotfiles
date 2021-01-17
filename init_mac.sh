@@ -41,3 +41,6 @@ source $HOME/.cargo/env
 brew install exa ripgrep
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
+brew install fish
+curl -L https://get.oh-my.fish | fish
+
