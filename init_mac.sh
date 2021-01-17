@@ -10,16 +10,9 @@ brew update
 brew install --cask iterm2
 
 # everything else (casks)
-brew install --cask notion
-brew install --cask zoomus
-brew install --cask brave-browser-dev
-brew install --cask visual-studio-code	
-brew install --cask spotify
-brew install --cask rectangle
-brew install --cask firefox-developer-edition
-brew install --cask wire
-brew install --cask discord
-brew install --cask nordvpn
+brew install --cask notion zoomus brave-browser-dev visual-studio-code	\
+    spotify rectangle firefox-developer-edition wire discord \
+    nordvpn
 
 # go development
 export GOPATH="${HOME}/.go"
@@ -41,6 +34,8 @@ source $HOME/.cargo/env
 brew install exa ripgrep bat
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
-brew install fish
+brew install fish 
+brew install openssl readline sqlite3 xz zlib
+
 curl -L https://get.oh-my.fish | fish
 
