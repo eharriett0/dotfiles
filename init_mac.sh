@@ -38,7 +38,7 @@ exec $SHELL
 source $HOME/.cargo/env
 
 # other tools
-brew install exa ripgrep
+brew install exa ripgrep bat
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
 brew install fish

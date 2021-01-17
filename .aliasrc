@@ -1,2 +1,7 @@
 alias ls='exa --grid --color=always --icons'
 alias cd..='cd ..'
+alias bat='bat --theme=Coldark-Dark --style="changes,header" --italic-text=always'q
+
+funcsave ls
+funcsave cd..
+funcsave bat
