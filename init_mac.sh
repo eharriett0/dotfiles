@@ -12,7 +12,7 @@ brew install --cask iterm2
 # everything else (casks)
 brew install --cask notion zoomus brave-browser-dev visual-studio-code	\
     spotify rectangle firefox-developer-edition wire discord \
-    nordvpn
+    nordvpn minikube docker
 
 # go development
 export GOPATH="${HOME}/.go"
@@ -37,5 +37,10 @@ brew install --cask font-hack-nerd-font
 brew install fish 
 brew install openssl readline sqlite3 xz zlib
 
+# fish
+brew install fish 
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 curl -L https://get.oh-my.fish | fish
+fisher install IlanCosman/tide
+
 
