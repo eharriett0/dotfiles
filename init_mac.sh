@@ -34,8 +34,10 @@ source $HOME/.cargo/env
 brew install exa ripgrep bat
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
-brew install fish 
+brew install helm 
 brew install openssl readline sqlite3 xz zlib
+brew install fluxcd/tap/flux
+brew install krew
 
 # fish
 brew install fish 

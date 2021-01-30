@@ -1,6 +1,8 @@
 alias ls='exa --grid --color=always --icons'
 alias cd..='cd ..'
 alias bat='bat --theme=Coldark-Dark --style="changes,header" --italic-text=always'q
+alias kubectl="kubecolor"
+alias k="kubecolor"
 
 funcsave ls
 funcsave cd..
