@@ -32,12 +32,12 @@ source $HOME/.cargo/env
 
 # other tools
 brew install exa ripgrep bat
+brew install ipython
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
-brew install helm 
+brew install helm krew kind
 brew install openssl readline sqlite3 xz zlib
 brew install fluxcd/tap/flux
-brew install krew
 
 # fish
 brew install fish 
