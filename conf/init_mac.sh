@@ -4,15 +4,10 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 exec $SHELL
 
-brew update 
+brew update && brew upgrade
 
-# iterm2
-brew install --cask iterm2
-
-# everything else (casks)
-brew install --cask notion zoomus brave-browser-dev visual-studio-code	\
-    spotify rectangle firefox-developer-edition wire discord \
-    nordvpn minikube docker
+# get nordpass
+curl -v https://downloads.npass.app/mac/NordPass.dmg --output "~/NordPass.dmg"
 
 # go development
 export GOPATH="${HOME}/.go"
@@ -30,17 +25,7 @@ curl https://sh.rustup.rs -sSf | sh
 exec $SHELL
 source $HOME/.cargo/env
 
-# other tools
-brew install exa ripgrep bat
-brew install ipython
-brew tap homebrew/cask-fonts
-brew install --cask font-hack-nerd-font
-brew install helm krew kind
-brew install openssl readline sqlite3 xz zlib
-brew install fluxcd/tap/flux
-
 # fish
-brew install fish 
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 curl -L https://get.oh-my.fish | fish
 fisher install IlanCosman/tide

@@ -3,6 +3,7 @@ alias cd..='cd ..'
 alias bat='bat --theme=Coldark-Dark --style="changes,header" --italic-text=always'q
 alias kubectl="kubecolor"
 alias k="kubecolor"
+alias code="/usr/local/bin/code-insiders"
 
 funcsave ls
 funcsave cd..
