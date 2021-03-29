@@ -18,3 +18,6 @@ alias kdno='kubectl describe nodes'
 alias kdns='kubectl describe namespaces'
 
 alias code="/usr/local/bin/code-insiders"
+funcsave ls
+funcsave cd..
+funcsave bat
