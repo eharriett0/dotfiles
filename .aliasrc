@@ -1,10 +1,20 @@
 alias ls='exa --grid --color=always --icons'
 alias cd..='cd ..'
-alias bat='bat --theme=Coldark-Dark --style="changes,header" --italic-text=always'q
-alias kubectl="kubecolor"
-alias k="kubecolor"
-alias code="/usr/local/bin/code-insiders"
+alias bat='bat --theme=Coldark-Dark --style="changes,header" --italic-text=always'
 
-funcsave ls
-funcsave cd..
-funcsave bat
+alias k='kubecolor'
+alias kubectl="kubecolor"
+alias kgpo="kubecolor get pods"
+alias kd='kubectl describe'
+alias kdp="kubecolor describe pod"
+alias kg='kubectl get'
+alias krm='kubectl delete'
+alias kpf='kubectl port-forward'
+alias kgsvc='kubectl get service'
+alias kgsec='kubectl get secret'
+alias kgno='kubectl get nodes'
+alias kgns='kubectl get namespaces'
+alias kdno='kubectl describe nodes'
+alias kdns='kubectl describe namespaces'
+
+alias code="/usr/local/bin/code-insiders"
