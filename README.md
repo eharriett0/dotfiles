@@ -4,5 +4,5 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/eharriett/dotfiles?color=red&style=plastic)
 
 ## TODO
-need to add stuff for python environment
-need to add stuff for z confs
+- python environment
+- z confs
