@@ -1,0 +1,3 @@
+hashicorp/tap
+homebrew/bundle
+teamookla/speedtest

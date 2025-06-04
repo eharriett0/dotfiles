@@ -1,0 +1,22 @@
+contexts:
+- name: localhost:57337
+  server: localhost:57337
+  user: localhost:57337
+- name: localhost:8080
+  server: localhost:8080
+  user: localhost:8080
+current-context: localhost:8080
+prompts-enabled: false
+servers:
+- grpc-web-root-path: ""
+  insecure: true
+  plain-text: true
+  server: localhost:57337
+- grpc-web-root-path: ""
+  plain-text: true
+  server: localhost:8080
+users:
+- auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcmdvY2QiLCJzdWIiOiJhZG1pbjpsb2dpbiIsImV4cCI6MTc0NTI2MzEzMSwibmJmIjoxNzQ1MTc2NzMxLCJpYXQiOjE3NDUxNzY3MzEsImp0aSI6IjMxMTg3YWQ0LWM3YjQtNGM4NC05ODcxLTEyNWNhOTdmZmNkNCJ9.gtEjaDbGFpANATyq22wIR7XfX02EPoiXdAy7Bj-psyA
+  name: localhost:57337
+- auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcmdvY2QiLCJzdWIiOiJhZG1pbjpsb2dpbiIsImV4cCI6MTc0NTc3NjYwMCwibmJmIjoxNzQ1NjkwMjAwLCJpYXQiOjE3NDU2OTAyMDAsImp0aSI6IjM0ZjQwZWIxLWEzNDktNDcyMy04YTBlLWZhOGUwYmJhOWIzMyJ9.UqXqgKscy5PnkZRgF3mJKQqCQ7s3YSIkSG12KIG3daI
+  name: localhost:8080

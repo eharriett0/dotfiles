@@ -1,0 +1,27 @@
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    features = side-by-side line-numbers decorations
+    whitespace-error-style = 22 reverse
+
+[delta "decorations"]
+    commit-decoration-style = bold yellow box ul
+    file-style = bold yellow ul
+    file-decoration-style = none
+
+[alias]
+    co = checkout
+    aliases = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\ \t => \\2/' | sort
+    ci = commit
+    st = status
+
+[user]
+	name = eharriett0
+	email = eddieishoyoung@gmail.com
+
+[url "git@github.com:eharriett0"]
+    insteadOf = https://github.com/eharriett0
