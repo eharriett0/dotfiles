@@ -97,6 +97,9 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
 
+
+kerr() { ns=$1; for p in $(kubectl get pods -n "$ns" --no-headers | awk '{print $1}'); do echo "=== $p ==="; kubectl logs -n "$ns" $p --tail=20 | grep -i "error"; done; }
+
 # Set personal aliases, overriding those provided by Oh My Zsh libs,
 # plugins, and themes. Aliases can be placed here, though Oh My Zsh
 # users are encouraged to define aliases within a top-level file in
@@ -112,3 +115,5 @@ source ~/.aliasrc
 eval "$(starship init zsh)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+. "$HOME/.cargo/env"

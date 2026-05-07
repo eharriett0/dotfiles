@@ -1,3 +1,4 @@
+eharriett-timonier/open-tofu
+fluxcd/tap
 hashicorp/tap
-homebrew/bundle
 teamookla/speedtest

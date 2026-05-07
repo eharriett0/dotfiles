@@ -1,1 +1,23 @@
 .DS_Store
+
+# Sensitive — never commit any of these to a public repo
+.config/gcloud/logs/
+.config/gcloud/credentials.db
+.config/gcloud/access_tokens.db
+.config/gcloud/configurations/config_*
+.config/gh/hosts.yml
+.config/argocd/
+.config/kafka-backup-cli/
+**/.aws/credentials
+**/.netrc
+**/*.pem
+**/*.key
+**/.env
+**/.env.local
+
+# Local-only paths that contain client/internal hostnames
+.gitconfig-il4
+
+# Binaries — install via brew/cargo, not git
+bin/copa
+bin/*.exe
